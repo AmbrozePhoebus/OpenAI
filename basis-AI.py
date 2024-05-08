@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI("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")
+client = OpenAI("my key")
 
 def roep_openai_aan(temp, tekst, taal):
     maximaal_tokens = 1000
